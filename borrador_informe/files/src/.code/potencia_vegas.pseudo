@@ -1,0 +1,19 @@
+proc potencia'(in A: matriz<n, n>, in q: Nat, in t: Real, 
+               in α: Nat, in ε: Real) {
+    
+    s := false
+
+    i := 0
+    do {
+
+        λ, v := potencia(A, q, t)   // monte carlo
+        s    := $||$A * v - λ * v$||_2$ < ε   
+        i    := i + 1
+
+    } while not s and i < α
+
+    if not s {
+        raise error
+    }
+    return λ, v
+}

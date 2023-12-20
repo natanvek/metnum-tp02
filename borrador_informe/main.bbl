@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{Brassard}
+Gilles Brassard and Paul Bratley.
+\newblock {\em Fundamentals of Algorithmics}.
+\newblock 1995.
+
+\bibitem{Burden}
+Richard~L Burden and J~Douglas Faires.
+\newblock {\em Numerical Analysis}.
+\newblock 2000.
+
+\bibitem{Ford}
+L~Ford and D~Fulkerson.
+\newblock {\em Flows in networks}.
+\newblock Princeton University Press, 1962.
+
+\bibitem{Leskovec}
+Jure Leskovec and Julian Mcauley.
+\newblock Learning to discover social circles in ego networks.
+\newblock {\em Advances in neural information processing systems, 25}, 2012.
+
+\bibitem{Newman}
+Mark~EJ Newman.
+\newblock The mathematics of networks.
+\newblock {\em The new palgrave encyclopedia of economics, 2(2008):1–12},
+  2008.
+
+\bibitem{Zachary}
+Wayne~W Zachary.
+\newblock An information flow model for conflict and fission in small groups.
+\newblock {\em Journal of anthropological research, 33(4):452–473}, 1977.
+
+\end{thebibliography}

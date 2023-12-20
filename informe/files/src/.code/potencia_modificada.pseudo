@@ -1,0 +1,16 @@
+proc potencia_ext(in A: matriz<n, n>, in q: Nat, in t: Real) {
+    
+    λ, x := potencia(A, q, t)    // monte carlo original
+    
+    v$_1$ := normalizar(A * x) - x                 
+    v$_2$ := normalizar(A * x) + x                  
+
+    if $||$v$_1||_2$ > t and $||$v$_2||_2$ > t {   // existe λ$_{max}$, -λ$_{max}$
+    
+        x := normalizar(v$_1$)
+        λ := (x.t * A * x) / (x.t * x)  // coeficiente de rayleigh
+    }
+    
+    return λ, x
+}
+ 
