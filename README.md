@@ -1,5 +1,14 @@
 ## TP2: Análisis de redes sociales	
 
+
+## Summary
+
+In the file 'informe/main.pdf,' you can find the report where we fully outline the task assigned to us, detail the data science experiments conducted, and present the conclusions we reached. This document is written in Spanish as it was part of the 'Methods in Numerical Analysis' course in the Computer Science program at the University of Buenos Aires."
+
+In this piece of work, we will propose an implementation in C++ of a method for calculating eigenvalues and eigenvectors in square matrices, known as the power method with deflation. Additionally, we suggest an expansion to the power method to make it more flexible in terms of preconditions for application.
+
+Furthermore, we will present two specific applications of eigenvalues and eigenvectors in network analysis: the measurement of eigenvector centrality and minimum cut in the 'Karate Club' network, and the estimation of an ego-network in Facebook through the construction of a similarity matrix, explained in detail in the report.
+
 grupo 18 - Arienti, Vekselman, Lakowsky, Kovo
 
 
