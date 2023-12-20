@@ -3,7 +3,7 @@
 
 ## Summary
 
-In the file 'informe/main.pdf,' you can find the report where we fully outline the task assigned to us, detail the data science experiments conducted, and present the conclusions we reached. This document is written in Spanish as it was part of the 'Methods in Numerical Analysis' course in the Computer Science program at the University of Buenos Aires.
+In the file 'informe/main.pdf,' you can find the report where we fully outline the task assigned to us, detail the data science experiments conducted, and present the conclusions we reached. This document is written in Spanish as it was part of the 'Methods in Numerical Analysis' course in the Computer Science program at the University of Buenos Aires in December 2022.
 
 In this piece of work, we proposed an implementation in C++ of a method for calculating eigenvalues and eigenvectors of square matrices, known as the power method with deflation. Additionally, we suggested an expansion to the power method to make it more flexible in terms of preconditions for application.
 
